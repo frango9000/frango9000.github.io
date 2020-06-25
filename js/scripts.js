@@ -94,4 +94,20 @@
         });
     });
 
+    // Load additional optionals
+    $('#view-more-optionals').click(function(e){
+        e.preventDefault();
+        $(this).fadeOut(300, function() {
+            $('#more-optionals').fadeIn(300);
+        });
+    });
+
+    // Load additional educations
+    $('#view-more-educations').click(function(e){
+        e.preventDefault();
+        $(this).fadeOut(300, function() {
+            $('#more-educations').fadeIn(300);
+        });
+    });
+
 })(jQuery);

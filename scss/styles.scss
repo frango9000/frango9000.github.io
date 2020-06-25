@@ -835,6 +835,11 @@ footer {
     }
 }
 
+
+#more-optionals {
+    display: none;
+}
+
 /*
     -----------------------------
     ----- 12. Media Queries -----
@@ -978,6 +983,10 @@ footer {
         text-align: center;
     }
 
+}
+
+#more-educations {
+    display: none;
 }
 
 // Extra Small Devices
