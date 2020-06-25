@@ -12,27 +12,6 @@
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
-    <style>
-        .languages li{
-            display: inline-block;
-            margin: 7px;
-            padding: 5px 10px;
-            color: #374054;
-            background: #e4e4ea;
-            list-style: none;
-            cursor: default;
-            font-size: 1.2em;
-        }
-        .optional-section{
-            border-bottom: 1px solid lightgray;
-        }
-        .optional-section-block h3{
-            display: inline;
-        }
-       .optional-date {
-            float: right;
-        }
-    </style>
 </head>
 
 <body>
@@ -80,6 +59,28 @@
         <div id="lead-content">
             <h1>Francisco Sanchez</h1>
             <h2>Full Stack Developer</h2>
+            <div class="social-top">
+                <ul>
+                    <li>
+                        <a href="https://github.com/fsancheztemprano/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://stackexchange.com/users/16565333/francisco-sanchez" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/fsancheztemprano/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/franciscosanchez/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/RealNarF/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://google.es" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
+            </div>
             <a href="docs/FranciscosResume.pdf" class="btn-rounded-white">Download CV</a>
         </div>
         <!-- End #lead-content -->
@@ -275,12 +276,12 @@
 
 
 
-    <div id="languages" class="optional-section background-alt languages">
+    <div id="languages" class="optional-section background-alt">
         <h2 class="heading">Languages</h2>
-        <ul>
+        <ul class="lang-list">
             <li>Spanish -> Native</li>
             <li><a href="#certificates"> English -> Advanced (C1)</a></li>
-            <li>Galician -> Basic</li>
+<!--            <li>Galician -> Basic</li>-->
         </ul>
     </div>
     <!-- End #skills -->
@@ -311,15 +312,9 @@
                 <span>Vigo, Spain</span></h4>
             <p>Final project: Augmented Reality on Arduino and Raspberry Pi</p>
             <ul>Courses:
-                <li>
-                    Robotics
-                </li>
-                <li>
-                    Raspberry Pi
-                </li>
-                <li>
-                    PHP
-                </li>
+                <li>Robotics</li>
+                <li>Raspberry Pi</li>
+                <li>PHP</li>
             </ul>
         </div>
         <!-- End .education-block -->
@@ -346,16 +341,45 @@
         <h2 class="heading">Projects</h2>
         <div class="container">
             <div class="row">
-                <div class="project shadow-large">
+
+
+<!--                <div class="project shadow-large">-->
+<!--                    <div class="project-image">-->
+<!--                        <img src="images/project.jpg" />-->
+<!--                    </div>-->
+<!--                    &lt;!&ndash; End .project-image &ndash;&gt;-->
+<!--                    <div class="project-info">-->
+<!--                        <h3>Project Name Here</h3>-->
+<!--                        <p>-->
+<!--                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.-->
+<!--                        </p>-->
+<!--                        <a href="#">View Project</a>-->
+<!--                    </div>-->
+<!--                    &lt;!&ndash; End .project-info &ndash;&gt;-->
+<!--                </div>-->
+<!--                &lt;!&ndash; End .project &ndash;&gt;-->
+
+
+
+                <div id="lituralia" class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img  width="300px" class="img-responsive " src="https://user-images.githubusercontent.com/64412593/85793399-3e06bc80-b735-11ea-8de3-f7a94fade596.png" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Project Name Here</h3>
+                        <h3>Lituralia</h3>IN PROGRESS
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                            Team project made for Campus Dual Full Stack Course: Book catalog and review website. Order books by ratings, search authors genres or publishers. Share your review and your rating for any book.
                         </p>
+                        <div>
+                            <ul class="stack-list">
+                                <li>Ontimize Boot</li>
+                                <li>Ontimize Web</li>
+                                <li>Spring</li>
+                                <li>Angular</li>
+                                <li>PostgreSQL</li>
+                            </ul>
+                        </div>
                         <a href="#">View Project</a>
                     </div>
                     <!-- End .project-info -->
@@ -364,40 +388,239 @@
 
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img  width="300px" class="img-responsive " src="https://user-images.githubusercontent.com/64412593/85792901-81146000-b734-11ea-9744-e7426ca9145e.png" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Project Name Here</h3>
+                        <h3>Lituralia Open</h3>IN PROGRESS
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                            Personal project to replicate <a href="#lituralia">Lituralia</a> project without Ontimize libraries (exclusively Angular 9 and Spring 5)
                         </p>
+                        <div>
+                            <ul class="stack-list">
+                                <li>Spring</li>
+                                <li>Angular</li>
+                                <li>PostgreSQL</li>
+                                <li>MD Bootstrap</li>
+                            </ul>
+                        </div>
                         <a href="#">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
                 <!-- End .project -->
 
-                <!-- Projects Above -->
+
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img width="300px" class="img-responsive "  src="https://user-images.githubusercontent.com/43641397/85790567-b28b2c80-b730-11ea-9057-72fb518f27b1.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Fire eStore</h3>
+                        <p>
+                            <a href="https://listadecompra-8da79.firebaseapp.com/home"><b>Online Demo</b></a><br>
+                            Store catalog and cart management, with login and oauth with google github facebook and twitter auth services. Backend is a Google Firebase Auth - Storage - Real Time Database - Deploy - Lambda
+                        </p>
+                        <div>
+                            <ul class="stack-list">
+                                <li>Angular 8</li>
+                                <li>Firebase</li>
+                                <li>Javascript</li>
+                                <li>Typescript</li>
+                                <li>OAuth</li>
+                                <li>Real Time Db</li>
+                                <li>RxJS</li>
+                            </ul>
+                        </div>
+                        <a href="https://github.com/fsancheztemprano/PMDM_ChipAR/">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img width="300px" class="img-responsive "  src="https://user-images.githubusercontent.com/43641397/73679966-bb189300-46bb-11ea-84c3-09c4b119b769.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Chip AR</h3>
+                        <p>
+                            <a href="https://www.youtube.com/watch?v=1lnLGaAPoU8"><b>Youtube Demo</b></a><br>
+                            Educational Android/IOs Augmented Reality app. The idea came after a robotics development class, this app detects chips like Arduino or RaspberryPI, then displays a wide array of filters and overlays over the chip, with information like pinouts, metrics, thermals, circuits and many other.
+                        </p>
+                        <div>
+                            <ul class="stack-list">
+                                <li>C#</li>
+                                <li>Unity3D</li>
+                                <li>Vuforia</li>
+                                <li>RaspberryPI</li>
+                                <li>Arduino</li>
+                            </ul>
+                        </div>
+                        <a href="https://github.com/fsancheztemprano/PMDM_ChipAR/">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+
+
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img width="300px" class="img-responsive " src="https://user-images.githubusercontent.com/43641397/85787462-b8cada00-b72b-11ea-91ce-85fe28459b01.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info mt-3 mb-3">
+                        <h3>Network Chat</h3>
+                        <p>
+                            High performance multi-threaded network chat. User login with encrypted password, private chats, group chats with invites, and encrypted network packets. Message delivery system was made focusing on security and multi-threaded performance.
+                        </p>
+                        <div>
+                            <ul class="stack-list">
+                                <li>Java</li>
+                                <li>JavaFX</li>
+                                <li>Concurrency</li>
+                                <li>Sockets</li>
+                                <li>Cryptography</li>
+                                <li>Guava</li>
+                            </ul>
+                        </div>
+                        <a href="https://github.com/fsancheztemprano/NetChat">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+
+
+                <!-- Projects Above / more projects below -->
 
                 <a id="view-more-projects" href="#">View More Projects</a>
                 <div id="more-projects" class="row">
+
                     <div class="project shadow-large">
                         <div class="project-image">
-                            <img src="images/project.jpg" />
+                            <img width="300px" class="img-responsive" src="https://github.com/fsancheztemprano/DI_POS/raw/master/docs/img/03-venta2.png" />
                         </div>
                         <!-- End .project-image -->
                         <div class="project-info">
-                            <h3>Project Name Here</h3>
+                            <h3>DI Point of Sales</h3>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                                Store manager, with products, categories, clients, prepared to make sales and get personalized reports. <a href="https://github.com/fsancheztemprano/DI_POS/blob/master/docs/mypos.rst">More info.</a>
                             </p>
-                            <a href="#">View Project</a>
+                            <div>
+                                <ul class="stack-list">
+                                    <li>Python</li>
+                                    <li>GTK</li>
+                                    <li>Sphinx</li>
+                                    <li>ReportLab</li>
+                                    <li>SQLite</li>
+                                </ul>
+                            </div>
+                            <a href="https://github.com/fsancheztemprano/DI_POS">View Project</a>
                         </div>
                         <!-- End .project-info -->
                     </div>
+                    <!-- End .project -->
+
+
+
+
+                    <div class="project shadow-large">
+                        <div class="project-image">
+                            <img width="300px" class="img-responsive"  src="https://user-images.githubusercontent.com/43641397/85785451-9932b200-b729-11ea-9ee0-b58c330d0973.jpg" />
+                        </div>
+                        <!-- End .project-image -->
+                        <div class="project-info">
+                            <h3>Roll a Ball - Hard Mode</h3>
+                            <p>
+                                Roll a Ball Unity Tutorial game expanded with multiple levels, enemies, also optional quests. You start with 3 lives, earn more capturing all coins in each level.
+                            </p>
+                            <div>
+                                <ul class="stack-list">
+                                    <li>C#</li>
+                                    <li>Unity3D</li>
+                                </ul>
+                            </div>
+                            <a href="https://github.com/fsancheztemprano/PMDM_RollBall">View Project</a>
+                        </div>
+                        <!-- End .project-info -->
+                    </div>
+                    <!-- End .project -->
+
+                    <div class="project shadow-large">
+                        <div class="project-image">
+                            <img width="300px" class="img-responsive" src="https://user-images.githubusercontent.com/43641397/85784333-75bb3780-b728-11ea-9014-90fa3dbbf058.png" />
+                        </div>
+                        <!-- End .project-image -->
+                        <div class="project-info">
+                            <h3>Beach Bar</h3>
+                            <p>
+                                Quick, yet powerful bar-restaurant managing software, nice simple way to manage tables, orders and receipts,
+                            </p>
+                            <div>
+                                <ul class="stack-list">
+                                    <li>Java</li>
+                                    <li>Swing</li>
+                                    <li>SQLite</li>
+                                </ul>
+                            </div>
+                            <a href="https://github.com/fsancheztemprano/PROG_P2">View Project</a>
+                        </div>
+                        <!-- End .project-info -->
+                    </div>
+                    <!-- End .project -->
+
+                    <div class="project shadow-large">
+                        <div class="project-image">
+                            <img width="300px" class="img-responsive" src="https://github.com/fsancheztemprano/ZZZ_JavaSplitter/raw/master/out/artifacts/screenshots/JavaSplitter0.0.1.b.png" />
+                            <img width="300px" class="img-responsive" src="https://github.com/fsancheztemprano/ZZZ_JavaSplitter/raw/master/out/artifacts/screenshots/JavaSplitter0.0.1.c.png" />
+                        </div>
+                        <!-- End .project-image -->
+                        <div class="project-info">
+                            <h3>File Splitter</h3>
+                            <p>
+                                Quick and easy file splitter. You can pick the desired size of the pieces or the number of pieces to split the file into.
+                            </p>
+                            <div>
+                                <ul class="stack-list">
+                                    <li>Java</li>
+                                    <li>JavaFX</li>
+                                </ul>
+                            </div>
+                            <a href="https://github.com/fsancheztemprano/ZZZ_JavaSplitter">View Project</a>
+                        </div>
+                        <!-- End .project-info -->
+                    </div>
+                    <!-- End .project -->
+
+                    <div class="project shadow-large">
+                        <div class="project-image">
+                            <img width="300px" src="https://user-images.githubusercontent.com/43641397/85758166-5e705000-b710-11ea-8276-919143739af2.png" class="img-responsive" />
+                        </div>
+                        <!-- End .project-image -->
+                        <div class="project-info">
+                            <h3>Throne Games</h3>
+                            <p>
+                                Collection of 4 games: Hangman, Rock Paper Scissors, Connect 4 and Checkers.
+                            </p>
+                            <div>
+                                <ul class="stack-list">
+                                    <li>Java</li>
+                                    <li>Swing</li>
+                                </ul>
+                            </div>
+                            <a href="https://github.com/fsancheztemprano/PROG_P1_ThroneGames">View Project</a>
+                        </div>
+                        <!-- End .project-info -->
+                    </div>
+
                 </div>
-                <!-- End .project -->
+                <!-- End .more-projects -->
             </div>
         </div>
     </div>
@@ -409,8 +632,12 @@
             <li>Java</li>
             <li>JavaScript</li>
             <li>Python</li>
-            <li>Typescript</li>
+            <li>Lua</li>
             <li>Kotlin</li>
+            <li>Batch</li>
+            <li>C</li>
+            <li>C++</li>
+            <li>C#</li>
             <li>Node.js</li>
             <li>Angular</li>
             <li>PHP</li>
@@ -456,6 +683,7 @@
             <li>Jenkins</li>
             <li>CircleCI</li>
             <li>Heroku</li>
+            <li>Cryptography</li>
             <li>Cryptocurrency</li>
         </ul>
     </div>
